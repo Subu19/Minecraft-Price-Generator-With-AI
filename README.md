@@ -41,7 +41,7 @@ A robust Node.js application that automatically generates a Minecraft economy `p
 
 3. **Run the Generator**:
     ```bash
-    node generate.js
+    node index.js
     ```
 
 This will output `price.yml` when complete, adhering to the standard you requested.
@@ -58,6 +58,6 @@ To use Ollama Cloud models with this generator:
    OLLAMA_API_KEY=your-api-key
    MODEL=gpt-oss:120b  # or any cloud model
    ```
-5. Run `node generate.js`
+5. Run `node index.js`
 
 The generator automatically detects Ollama Cloud and uses the native Ollama API with proper authentication.
